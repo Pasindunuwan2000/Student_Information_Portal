@@ -1,6 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import TableCreate from './components/Table';
+import "./assets/css/Basic.css";
+import { students } from "./database/StudentsDb";
+import { useState } from "react";
 
 function App() {
   const [currentFontSize, setCurrentFontSize] = useState("16px");
