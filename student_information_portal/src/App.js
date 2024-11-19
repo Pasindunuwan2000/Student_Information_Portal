@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import TableCreate from './components/Table';
 
 function App() {
   const [currentFontSize, setCurrentFontSize] = useState("16px");
